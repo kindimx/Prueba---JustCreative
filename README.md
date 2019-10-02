@@ -18,4 +18,4 @@ Editamos el archivo .env con las credenciales de nuestra base de datos llamada '
 ```
 
 Credenciales (admin) : email "jesus@gmail.com" - pass "123456"
-Credenciales (admin) : email "fer@gmail.com" - pass "654321"
+Credenciales : email "fer@gmail.com" - pass "654321"
