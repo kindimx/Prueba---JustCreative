@@ -12,7 +12,6 @@ class PedidosController extends Controller
     public function index()
     {
 
-        //$pedidos = Pedido::all();
         $pedidos = Pedido::with('usuario', "hijos")->with('hijos.pizza')->get();
 
         return response()->json(['pedidos' => $pedidos]);
